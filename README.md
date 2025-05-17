@@ -59,16 +59,3 @@ Tired of hacking prompts to simulate consistency?
 
 PersonaForge is a framework for creating consistent AI personas with context-aware memory, rule-based verification, and dynamic prompt engineering.
 
-## Features
-
-- **Durable Rules** for pre/post-prompt verification, ensuring the consistency and compliance of AI responses
-- **ChromaDB** vector storage for conversation memory and RAG (Retrieval Augmented Generation)
-- **Character Persona Training (CPT)** to continuously extract and refine persona traits from conversations
-- **Prompt Decorators** for dynamic prompt enhancement with chain-of-thought reasoning, formatting control, and more
-- **Generate-Delete-Rewrite** workflow for post-processing to ensure persona consistency
-- **Sequence Normalization** to reduce sensitivity to attribute order in persona descriptions
-- **Multiple Candidate Generation** with ensemble reranking to select the most consistent responses
-- **Circuit Breaker** pattern for resilient API calls and improved fault tolerance
-- **Async Architecture** for efficient handling of LLM calls and API requests
-- **Multi-Tenant Support** with data isolation, tenant-specific configuration, and usage tracking
-- **Proper Test Coverage** with both mock and real OpenAI API tests
